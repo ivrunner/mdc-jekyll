@@ -1,4 +1,4 @@
-$mobile: new-breakpoint(max-width 768px)
+$break-small: 768px
 
 .head-logo
   @include grid-container
@@ -6,6 +6,12 @@ $mobile: new-breakpoint(max-width 768px)
   img
     @include grid-column(4)
     @include grid-shift(4)
+    @media screen and (max-width: $break-small)
+      @include grid-column(12)
+      @include grid-shift(0)
+      padding-left: 20px
+      padding-right: 20px
+      margin-left: 0px
 
 nav
   @include grid-container
