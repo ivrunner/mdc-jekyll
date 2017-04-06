@@ -1,0 +1,33 @@
+.foot
+  background: $brand-color
+
+.foot-contact
+  @include grid-container
+  img
+    @include grid-column(4)
+    @include grid-shift(4)
+    padding-top: 30px
+    padding-bottom: 30px
+    @media screen and (max-width: $break-small)
+      @include grid-column(8)
+      @include grid-shift(2)
+
+.social-icons
+  @include grid-container
+  img
+    @include grid-column(1)
+    @include grid-shift(4.5)
+    height: 50px
+    padding-bottom: 30px
+    @media screen and (max-width: $break-small)
+      @include grid-column(2)
+      @include grid-shift(3)
+.foot-text
+  @include grid-container
+  p
+    text-align: center
+    padding-bottom: 0px
+    margin-bottom: 0px
+    color: white
+    a
+      color: $link-color
