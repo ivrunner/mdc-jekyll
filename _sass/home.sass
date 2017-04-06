@@ -1,22 +1,35 @@
 .slogan
   @include grid-container
   padding: 20px
+  @media screen and (max-width: $break-small)
+    padding: 10px
+    padding-top: 20px
 
   img
-    @include grid-column(8)
-    @include grid-shift(2)
+    @include grid-column(6)
+    @include grid-shift(3)
+    @media screen and (max-width: $break-small)
+      @include grid-column(12)
+      @include grid-shift(0)
+      @media screen and (min-width: $break-large)
+        @include grid-column(12)
 
 .main-text
   @include grid-container
-  padding: 20px
+  padding: 10px
   padding-top: 0px
+  padding-bottom: 0px
 
   p
-    @include grid-column(8)
-    @include grid-shift(2)
+    @include grid-column(6)
+    @include grid-shift(-3)
     text-align: left
-    font-size: 1.5em
+    font-size: 1.4em
     padding-top: 0px
+    @media screen and (max-width: $break-small)
+      @include grid-column(12)
+      @include grid-shift(0)
+      font-size: .95em
 
 .smw
   @include grid-container
@@ -24,3 +37,22 @@
   img
     @include grid-column(4)
     @include grid-shift(4)
+    @media screen and (max-width: $break-small)
+      @include grid-column(12)
+      @include grid-shift(0)
+      padding: 0px
+
+.homeport
+  @include grid-container
+  padding-left: 200px
+  padding-right: 200px
+  @media screen and (max-width: $break-small)
+    padding-left: 0px
+    padding-right: 0px
+
+
+  img
+    @include grid-column(4)
+    padding-top: 40px
+    @media screen and (max-width: $break-small)
+      @include grid-column(12)

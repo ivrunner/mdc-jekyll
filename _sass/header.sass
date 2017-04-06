@@ -1,4 +1,8 @@
-$break-small: 768px
+$break-small: 800px
+$break-large: 1300px
+
+
+
 
 .head-logo
   @include grid-container
@@ -24,7 +28,17 @@ nav
     li
       display: inline
       padding: 10px
+      @media screen and (max-width: $break-small)
+        padding: 5px
+        font-size: .95em
 
       a
         color: black
+        text-decoration: none
+
+      a:visited
+        color: black
+
+      a:hover
+        color: #DC6630
         text-decoration: none
