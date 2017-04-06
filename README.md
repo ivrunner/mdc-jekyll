@@ -1,15 +1,17 @@
-Install Jekyll
+# Jekyll Boilerplate with Bourbon and Neat
 
-jekyll new my-project
+## Install [jekyll](https://jekyllrb.com)
 
-Copy _assets folder from gem theme.
+`jekyll new my-project`
 
-create _sass directory and do bourbon install and neat install into that directory
+## Copy _assets folder from gem theme.
 
-Add @import "bourbon/bourbon"; and @import "neat/neat"; to main.scss in assets folder.
+## create _sass directory and do bourbon install and neat install into that directory
 
-serve jekyll to check for errors.
+Add `@import "bourbon/bourbon";` and `@import "neat/neat";` to main.scss in assets folder.
+
+`serve jekyll` to check for errors.
 
 notes:
 
-To fix images, set baseurl in config file to "my-project". then add {{ site.baseurl }} in front of your img src. 
+To fix images, set baseurl in config file to `"my-project"`. then add `{{ site.baseurl }}` in front of your img src. 
