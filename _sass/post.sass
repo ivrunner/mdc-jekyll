@@ -3,3 +3,10 @@
 
 .post-wrapper
   @include post-width
+  @include landscape
+  @media screen and (max-width: $on-palm)
+    padding-top: 20px
+    padding-bottom: 20px
+    @media screen and (max-width: $break-small) and (orientation:landscape)
+      padding-top: 20px
+      padding-bottom: 20px
