@@ -4,4 +4,21 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Rich PageMaker including versions of Lorem Ipsum.
+
+The monotones have symmetric CIELAB lightness differences, so switching from dark to light mode retains the same perceived contrast in brightness between each value. Each mode is equally readable. The accent colors are based off specific colorwheel relations and subsequently translated to CIELAB to ensure perceptual uniformity in terms of lightness. `The hues themselves`, as with the monotone *a*b values, have been adjusted within a small range to achieve the most pleasing combination of colors.
+
+```html
+<div class="header">
+  <div class="head-logo">
+    <img src="{{ site.baseurl }}/assets/img/mdc-head-logo.svg"/>
+  </div>
+  <center><nav>
+    <ul>
+        <li><a href="/">HOME</a></li>
+        <li><a href="news.asp">PORTFOLIO</a></li>
+        <li><a href="contact.asp">BLOG</a></li>
+        <li><a href="/contact">CONTACT</a></li>
+    </ul>
+  </nav></center>
+</div>
+```

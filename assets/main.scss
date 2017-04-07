@@ -28,6 +28,26 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$break-small: 800px;
+$break-large: 1300px;
+
+.blockqoute {
+  color: $link-color;
+}
+
+@mixin post-width {
+  @include grid-column(6);
+  @include grid-shift(3);
+  text-align: left;
+  font-size: 1.4em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  @media screen and (max-width: $break-small){
+    @include grid-column(12);
+    @include grid-shift(0);
+    font-size: .95em;
+  }
+}
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -44,3 +64,5 @@ $on-laptop:        800px;
 @import "page";
 @import "home";
 @import "footer";
+@import "blog";
+@import "post"
