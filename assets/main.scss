@@ -6,7 +6,7 @@
 @import "neat/neat";
 // Our variables
 $base-font-family: "futura-pt-bold",sans-serif;
-$base-font-size:   16px;
+$base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -31,6 +31,10 @@ $on-laptop:        800px;
 $break-small: 800px;
 $break-large: 1300px;
 
+p {
+  font-family: "karmina",serif;
+}
+
 .blockqoute {
   color: $link-color;
 }
@@ -54,7 +58,7 @@ $break-large: 1300px;
   @media screen and (max-width: $break-small){
     @include grid-column(12);
     @include grid-shift(0);
-    font-size: .95em;
+    font-size: 1.1em;
     padding-top: 0px;
     padding-bottom: 0px;
   }
