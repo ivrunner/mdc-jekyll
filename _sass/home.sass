@@ -8,39 +8,30 @@
   img
     @include grid-column(6)
     @include grid-shift(3)
+    margin-left: 10px
     @media screen and (max-width: $break-small)
       @include grid-column(12)
       @include grid-shift(0)
-      @media screen and (min-width: $break-large)
-        @include grid-column(12)
+      @include landscape
 
 .main-text
   @include grid-container
   padding: 10px
-  padding-top: 0px
   padding-bottom: 0px
+  padding-top: 0px
 
-  p
-    @include grid-column(6)
-    @include grid-shift(-3)
-    text-align: left
-    font-size: 1.4em
+  .main-text-wrapper
+    @include post-width
+    @include landscape
     padding-top: 0px
-    @media screen and (max-width: $break-small)
-      @include grid-column(12)
-      @include grid-shift(0)
-      font-size: .95em
+    padding-bottom: 0px
 
 .smw
   @include grid-container
 
   img
-    @include grid-column(4)
-    @include grid-shift(4)
-    @media screen and (max-width: $break-small)
-      @include grid-column(12)
-      @include grid-shift(0)
-      padding: 0px
+    @include post-width
+    @include landscape
 
 .homeport
   @include grid-container
@@ -58,7 +49,6 @@
     padding-top: 40px
     @media screen and (max-width: $break-small)
       @include grid-column(12)
+      @include landscape
 
 .highlight
-  @include grid-column(6)
-  @include grid-shift(3)
