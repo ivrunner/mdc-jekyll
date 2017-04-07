@@ -51,7 +51,7 @@ $break-large: 1300px;
   font-size: 1.4em;
   padding-top: 30px;
   padding-bottom: 30px;
-  @media screen and (max-width: $on-palm){
+  @media screen and (max-width: $break-small){
     @include grid-column(12);
     @include grid-shift(0);
     font-size: .95em;
