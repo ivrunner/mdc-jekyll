@@ -35,6 +35,15 @@ $break-large: 1300px;
   color: $link-color;
 }
 
+@mixin landscape {
+  @media screen and (max-width: $break-small) and (orientation:landscape){
+    @include grid-column(8);
+    @include grid-shift(2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 @mixin post-width {
   @include grid-column(6);
   @include grid-shift(3);
@@ -42,10 +51,12 @@ $break-large: 1300px;
   font-size: 1.4em;
   padding-top: 30px;
   padding-bottom: 30px;
-  @media screen and (max-width: $break-small){
+  @media screen and (max-width: $on-palm){
     @include grid-column(12);
     @include grid-shift(0);
     font-size: .95em;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
