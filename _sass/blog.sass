@@ -13,12 +13,20 @@ article
 
 h2.title
   margin-bottom: 0px
+  color: black
+  a:visited
+    color: black
 
 p.date
   @extend h2.title
+  color: $brand-color
 
 .date
   font-family: "karmina",serif
   font-style: italic
   font-weight: 700
   color: $link-color
+
+.full-post-link js-pjax
+  a:visited
+    color: black
