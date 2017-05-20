@@ -5,14 +5,4 @@
 layout: home
 ---
 
-The monotones have symmetric CIELAB lightness differences, so switching from dark to light mode retains the same perceived contrast in brightness between each value. Each mode is equally readable. The accent colors are based off specific colorwheel relations and subsequently translated to CIELAB to ensure perceptual uniformity in terms of lightness. `The hues themselves`, as with the monotone *a*b values, have been adjusted within a small range to achieve the most pleasing combination of colors.
-
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
+I have been building websites for over 7 years. My goal is to bring small businesses an affordable and functional website/design that best serves their needs. Websites are very cost efficient but it can be daunting to do yourself. I can build a modern and functional website that only requires a one time design fee. The hosting required to keep a website on the internet is usually under $120 dollars a year depending on the sites needs. I only build "responsive" websites that scale to any screen including phones. I build sites lightweight so load times are fast and can include any number of features such as contact forms and embedded video. Please check out my portfolio [here](/portfolio). You can also [contact](/contact) me with any questions you may have.
