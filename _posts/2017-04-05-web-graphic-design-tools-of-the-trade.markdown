@@ -11,7 +11,7 @@ Up until 2009, I had always used windows PC's. When I really became serious abou
 
 ### Code Software
 
-UPDATE (1/27/15): I recently started using VIM. I wouldn't recommend starting there however. more to come on in the future! I am not a traditionally trained programmer or "coder". I basically went with the most user friendly piece of software I could find, and thats Coda by Panic. Coda is a very visual and easy to use text editor. It has auto complete and all the things you would want out of a modern editor. What I love about it is having a file browser for both the local and server side built within. This allows me to effectively build locally and upload to a server when finished, which is invaluable and a major time saver. Coda is also Git compatible, if thats your thing.
+After trying various coding programs, I seem to have finally settled on [Atom](http://atom.io). This is software made by the folks at GitHub. It is an open source editor that is very user friendly and offers a ton of customization. It also integrates with Git and GitHub. It is super fast and reliable so definitely give it a shot if your looking to try something new.
 
 ### Design Software
 
@@ -23,7 +23,7 @@ Now, there are some alternatives out there that are great. Pixelmator and GIMP a
 
 Once you start designing and developing your going to end up with a lot of files. Having a place in the cloud where these are backed up to is a great idea. Not only if your computer takes a nose dive, but it allows you to access them anywhere. It's also cheap, and the pricing just gets better with time.
 
-I use Google Drive. There are a ton of other cloud services out there to use, I chose Drive due to its intergration with Google Docs which is my favorite document suite. I write blog posts just like these in Google Docs. They are saved on my Google Drive and I can pull them up on lunch from my cell phone and make edits or jot down a quick point that I want to make. Find a cloud storage solution that works for you and use it to your advantage. Thats the most important part, most people have cloud storage but do not use it effectively.
+I use Google Drive. There are a ton of other cloud services out there to use, I chose Drive due to its integration with Google Docs which is my favorite document suite. I write blog posts just like these in Google Docs. They are saved on my Google Drive and I can pull them up on lunch from my cell phone and make edits or jot down a quick point that I want to make. Find a cloud storage solution that works for you and use it to your advantage. Thats the most important part, most people have cloud storage but do not use it effectively.
 
 ### Notes and Project Tracking
 
