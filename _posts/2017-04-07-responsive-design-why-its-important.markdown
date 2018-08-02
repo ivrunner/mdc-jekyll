@@ -4,6 +4,7 @@ title:  "Responsive Design: What is it & Why is it Important"
 date:   2017-04-05 12:34:41 -0400
 categories:
 ---
+
 Ever since Steve Jobs unveiled the original iPhone, web designers and developers have been working to try and improve the web browsing experience on mobile devices. Standard practice back then was to build two websites; one for desktops and a stripped down mobile version. And even so, mobile versions were primarily used by bigger sites before responsive design became more of a standard. These generally were poorly designed and frustrating to use. Most of the time you were left viewing the desktop version and trying to tap little buttons with your fingers.
 
 > If your not building responsive websites, you may as well not be building at all.

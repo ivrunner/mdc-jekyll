@@ -6,7 +6,7 @@ layout: default
   <article class="{% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
     <div class="article-wrapper">
     <div class="article-head">
-			<h2 class="title"><a href="{{ post.url | relative_url }}" class="js-pjax">{{ post.title }}</a></h2>
+			<strong><h2 class="title"><a href="{{ post.url | relative_url }}" class="js-pjax">{{ post.title }}</a></h2></strong>
 			<p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
 		</div><!--/.article-head-->
 		<div class="article-content">

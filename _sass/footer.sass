@@ -1,5 +1,5 @@
 .foot
-  background: $brand-color
+  background: $sol-dark
   padding-top: 20px
   padding-bottom: 20px
 
@@ -9,12 +9,12 @@
   padding-bottom: 10px
   img
     width: 150px
-    @include grid-column(1)
-    @include grid-shift(5.50)
+    @include grid-column(.5)
+    @include grid-shift(5.75)
     margin-left: 15px
     @media screen and (max-width: $break-small)
-      @include grid-column(4)
-      @include grid-shift(4)
+      @include grid-column(2)
+      @include grid-shift(5)
       padding-left: 20px
       padding-right: 20px
       margin-left: 0px
@@ -54,6 +54,6 @@
     text-align: center
     padding-bottom: 0px
     margin-bottom: 0px
-    color: white
+    color: #809694
     a
-      color: black
+      color: $link-color
