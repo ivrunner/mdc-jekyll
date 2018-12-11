@@ -10,7 +10,7 @@ Ever since Steve Jobs unveiled the original iPhone, web designers and developers
 
 > If your not building responsive websites, you may as well not be building at all.
 
-![Minion](http://netdna.webdesignerdepot.com/uploads/2015/03/featured.png)
+![Minion]({{ site.baseurl }}/assets/img/assets/img/featured.png)
 
 ### Responsive vs Mobile Versions
 
