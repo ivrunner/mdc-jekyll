@@ -8,7 +8,7 @@ permalink: /contact/
 
 ## About Me
 
-I am a 32 year old Web Designer and Illustrator from Indiana. I have been designing websites and brands since 2009. This site is meant for you to be able to see some of the work I have done and interact with me directly.
+I am a 34 year old Web Designer and Illustrator from Indiana. I have been designing websites and brands since 2009. This site is meant for you to be able to see some of the work I have done and interact with me directly.
 
 My biggest passion is my wife Nicole, and my daughters Hailey and Kendall.
 
